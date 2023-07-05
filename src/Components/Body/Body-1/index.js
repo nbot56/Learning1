@@ -14,23 +14,21 @@ const BodyFirstContainer = () => {
                         FEATURES
                     </text>
                 </div>
-                {/* <div className="bodyFirstContainer-firstText-container"> */}
-                    <p className="bodyFirstContainer-firstText-container-text">
-                        Lorem ipsum dolor sit amet consecte turnim
-                    </p>
-                    <div className="bodyFirstContainer-firstText-container-secondText">
-                        With our integrated CRM, project management, collaboration and invoicing capabilities, you can
-                    </div>
-                    <div className="bodyFirstContainer-firstText-container-lastText">
-                        manage every aspect of your business in one secure platform.
-                    </div>
-                {/* </div> */}
+                <p className="bodyFirstContainer-firstText-container-text">
+                    Lorem ipsum dolor sit amet consecte turnim
+                </p>
+                <div className="bodyFirstContainer-firstText-container-secondText">
+                    With our integrated CRM, project management, collaboration and invoicing capabilities, you can
+                </div>
+                <div className="bodyFirstContainer-firstText-container-lastText">
+                    manage every aspect of your business in one secure platform.
+                </div>
             </div>
             <div className="bodyFirstContainer-image-container">
                 <img src={BodyImage} className="bodyFirstContainer-Image" />
             </div>
             <div className="bodyFirstContainer-bottom">
-              <BodyCard/>  
+                <BodyCard />
             </div>
         </div>
     )
